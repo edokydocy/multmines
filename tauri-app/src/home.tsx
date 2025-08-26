@@ -1,0 +1,15 @@
+export function TypographyH1() {
+  return (
+    <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
+      MultMines
+    </h1>
+  )
+}
+
+export function HomePage(){
+    return (
+    <div>
+        
+    </div>
+    );
+}

@@ -3,14 +3,7 @@ import reactLogo from "./assets/react.svg";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 import Grid from "./cell";
-
-function TypographyH1() {
-  return (
-    <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-      MultMines
-    </h1>
-  )
-}
+import { TypographyH1 } from "./home";
 
 function App() {
   return (
